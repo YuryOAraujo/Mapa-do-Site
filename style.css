@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logoIF{
+    margin-left: 10%;
+    width: 2%;
+}
+
+#navbar{
+    background-color: rgb(104, 214, 120);
+}
+
+#searchButton{
+    background-color: rgb(47, 158, 65);
+}
+
+#searchButton2{
+    background-color: rgb(47, 158, 65);
+    width: 50%;
+    height: 20vh;
+}
+
+form{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.menuRow{
+    height: 85vh;
+}
+
+.logos{
+    color: rgb(47, 158, 65);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(47, 158, 65);
+}
+
+@media only screen and (max-width: 985px) {
+    .logoIF {
+      display: block;
+      width: 7%;
+      height: auto;
+      margin-left: 45%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .logoIF {
+      display: block;
+      width: 10%;
+      height: auto;
+      margin-left: 45%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .socialMedia {
+       margin-top: 40vh;
+    }
+
+    .logoInstagram{
+        margin-right: 10%;
+    }
+
+    .logoFacebook{
+        margin-right: 10%;
+    }
+
+    #searchButton2{
+        width: 40%;
+        height: 15vh;
+        margin: 5%;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .logoInstagram{
+        margin-right: 10%;
+    }
+
+    .logoFacebook{
+        margin-right: 10%;
+    }
+    #searchButton2{
+        width: 60%;
+        height: 15vh;
+        margin: 5%;
+    }
+    .socialMedia {
+        margin-top: 32vh;
+     }
+}
+
+.col-4 a{
+    display: block;
+   padding-bottom: 3%;
+}
