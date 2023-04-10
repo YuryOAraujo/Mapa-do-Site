@@ -17,4 +17,4 @@ O mapa do site também apresenta uma barra de pesquisa, com links para cada seç
 <img src="https://user-images.githubusercontent.com/127779626/230627665-ed207599-4946-424e-b3b2-127a69002889.png" width="700px">
 
 ## Contribuições
-Este projeto foi desenvolvido como trabalho para a disciplina de LPV do IF Barbacena, realizado em dupla com a colabodora <a href="https://github.com/LeticiaKOSilva">Letícia Oliveira</a>.
+Este projeto foi desenvolvido como trabalho para a disciplina de LPV do IF Barbacena, realizado em dupla com a colaboradora <a href="https://github.com/LeticiaKOSilva">Letícia Oliveira</a>.
