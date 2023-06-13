@@ -28,3 +28,21 @@ const options = Array.from(datalist.options);
     for (const option of options) {
         datalist.appendChild(option);
     }
+
+    // Obtém a referência para a imagem
+var imagem = document.getElementById('sol');
+var atribute = 0;
+
+// Adiciona um ouvinte de eventos para o evento de clique na imagem
+imagem.addEventListener('click', function() {
+  // Altera a cor de fundo do body para preto
+    if(atribute == 0){
+         imagem.src = 'lua.png';
+        document.body.style.backgroundColor = '#1C1C1C';
+        atribute = 1;
+    }else{
+       imagem.src = 'sol.png';
+        document.body.style.backgroundColor = '#F5F5F5';
+        atribute = 0;
+    }
+});
